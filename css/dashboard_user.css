@@ -21,7 +21,7 @@ body {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
-    height: 80vh;
+    max-height: 90vh;
 }
 
 /* Bagian Widget Kiri */
@@ -80,15 +80,6 @@ body {
     text-align: center;
     line-height: 1.8;
     height: 100%;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    color: #fff;
-    background: #333;
-    margin-top: 20px;
 }
 
 /* Responsif */

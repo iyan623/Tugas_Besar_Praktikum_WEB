@@ -54,10 +54,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'user') {
         </aside>
     </div>
 
-    <!-- Bagian Footer -->
-    <footer>
-        &copy; <?php echo date('Y'); ?> Kuliner Nusantara
-    </footer>
+    
 </body>
 
 </html>

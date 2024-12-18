@@ -29,9 +29,6 @@ $result = mysqli_query($conn, $query);
                 <li><a href="#contact-us">Contact Us</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="register.php">Register</a></li>
-                <?php if (isset($_SESSION['username'])): ?>
-                    <li><a href="logout.php">Logout</a></li>
-                <?php endif; ?>
             </ul>
         </nav>
     </header>

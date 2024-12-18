@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: #62825D;
+    color: #fff;
+    padding: 20px 0 ;
+    text-align: center;
+}
+
+.back-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Bagian Form Tambah Produk */
+.form-section,
+.produk-section {
+    padding: 20px;
+    margin: 20px;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+.submit-btn {
+    background: #62825D;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background: #333;
+}
+
+/* Tabel Produk */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #62825D;
+    color: #fff;
+}
+
+/* Tombol Aksi - Edit dan Hapus */
+.action-btn {
+    color: white;
+    background: #e74c3c;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    display: block; /* Membuat tombol tampil secara vertikal */
+    margin-bottom: 8px; /* Memberi jarak antar tombol */
+}
+
+.action-btn:hover {
+    background: #c0392b;
+}
+.action-btn-edit {
+    color: white;
+    background: #3498db;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    display: block; /* Membuat tombol tampil secara vertikal */
+    margin-bottom: 8px; /* Memberi jarak antar tombol */
+}
+
+.action-btn-edit:hover {
+    background: #2980b9;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
