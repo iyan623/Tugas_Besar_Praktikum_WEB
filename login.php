@@ -100,7 +100,7 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['username'])) {
         </form>
 
         <div class="login-footer">
-            <a href="dashboard.php">Kembali ke Dashboard</a> |
+            <a href="index.php">Kembali ke Dashboard</a> |
             <a href="register.php">Register</a>
         </div>
     </div>

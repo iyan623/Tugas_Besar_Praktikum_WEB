@@ -14,15 +14,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // Insert data ke database
         $query = "INSERT INTO tb_pesan (nama, email, pesan) VALUES ('$nama', '$email', '$pesan')";
         if (mysqli_query($conn, $query)) {
-            echo "<script>alert('Pesan berhasil dikirim!'); window.location.href='dashboard.php';</script>";
+            echo "<script>alert('Pesan berhasil dikirim!'); window.location.href='index.php';</script>";
         } else {
-            echo "<script>alert('Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.'); window.location.href='dashboard.php';</script>";
+            echo "<script>alert('Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.'); window.location.href='index.php';</script>";
         }
     } else {
-        echo "<script>alert('Semua bidang harus diisi!'); window.location.href='dashboard.php';</script>";
+        echo "<script>alert('Semua bidang harus diisi!'); window.location.href='index.php';</script>";
     }
 } else {
     // Jika bukan POST, redirect kembali
-    header('Location: dashboard.php');
+    header('Location: index.php');
 }
 ?>

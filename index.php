@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $query);
         <div class="logo"><img src="assets/images/logo.png" alt="logo">Kuliner Kab. Takalar</div>
         <nav>
             <ul>
-                <li><a href="dashboard.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#makanan">Produk</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
                 <li><a href="login.php">Login</a></li>
