@@ -1,7 +1,7 @@
 <?php
 // Mulai sesi
 session_start();
-include 'connect.php';
+include 'config.php';
 
 // Ambil data makanan dari database
 $query = "SELECT * FROM tb_kuliner";
@@ -15,7 +15,7 @@ $result = mysqli_query($conn, $query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Kuliner</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 </head>
 
 <body>
